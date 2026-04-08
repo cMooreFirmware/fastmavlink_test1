@@ -1,1 +1,0 @@
-'''fastMavlink code generator module'''

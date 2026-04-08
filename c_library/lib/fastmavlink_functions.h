@@ -716,7 +716,7 @@ FASTMAVLINK_FUNCTION_DECORATOR uint8_t fmav_parse_to_msg(fmav_message_t* msg, fm
 // uint16_t fmav_msg_to_frame_buf_wresult(fmav_result_t* result, uint8_t* buf, fmav_message_t* msg)
 // uint16_t fmav_msg_to_serial(fmav_message_t* msg)
 
-FASTMAVLINK_FUNCTION_DECORATOR uint16_t fmav_msg_to_frame_buf(uint8_t* buf, fmav_message_t* msg)
+FASTMAVLINK_FUNCTION_DECORATOR uint16_t fmav_msg_to_frame_buf(uint8_t* buf, fmav_message_t * const msg)
 {
     uint16_t pos = 0;
 

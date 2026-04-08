@@ -1044,11 +1044,11 @@ typedef enum OSD_PARAM_CONFIG_ERROR {
 //------------------------------
 
 #include "../common/common.h"
-#include "../uAvionix/uAvionix.h"
-#include "../icarous/icarous.h"
-#include "../loweheiser/loweheiser.h"
-#include "../cubepilot/cubepilot.h"
-#include "../csAirLink/csAirLink.h"
+// #include "../uAvionix/uAvionix.h"
+// #include "../icarous/icarous.h"
+// #include "../loweheiser/loweheiser.h"
+// #include "../cubepilot/cubepilot.h"
+// #include "../csAirLink/csAirLink.h"
 
 
 #ifdef __cplusplus

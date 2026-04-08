@@ -273,7 +273,7 @@ FASTMAVLINK_FUNCTION_DECORATOR void fmav_router_handle_message(uint8_t link_of_m
 }
 
 
-FASTMAVLINK_FUNCTION_DECORATOR void fmav_router_handle_message_by_msg(uint8_t link_of_msg, fmav_message_t* msg)
+FASTMAVLINK_FUNCTION_DECORATOR void fmav_router_handle_message_by_msg(uint8_t link_of_msg, fmav_message_t const * const msg)
 {
     fmav_router_handle_message_by_id(
         link_of_msg,
